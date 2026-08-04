@@ -1,0 +1,55 @@
+{
+  "train": [
+    {
+      "image": "fdg_0011f3deaf_03-23-2003-NA-PET-CT Ganzkoerper  primaer mit KM-10445/PET.nii.gz",
+      "patientInfo": "63 years old female. Imaging device: Siemens Biograph mCT. Tracer: 18F-FDG.",
+      "diagnosis": "MELANOMA",
+      "dose_tag": 100,
+      "previous_high_doses": [],
+      "previous_diagnosis": []
+    },
+    {
+      "image": "fdg_0117d7f11f_09-13-2001-NA-PET-CT Ganzkoerper  primaer mit KM-68547/PET.nii.gz",
+      "patientInfo": "52 years old female. Imaging device: Siemens Biograph mCT. Tracer: 18F-FDG.",
+      "diagnosis": "LUNG_CANCER",
+      "dose_tag": 100,
+      "previous_high_doses": [],
+      "previous_diagnosis": []
+    },
+    {
+      "image": "psma_7ee9adc7b31f780e_4scans/2018-06-29/PET.nii.gz",
+      "patientInfo": "80 years old male. Imaging device: Siemens Biograph mCT Flow 20. Tracer: 18F-PSMA.",
+      "diagnosis": "PROSTATE_CANCER",
+      "dose_tag": 100,
+      "previous_high_doses": [
+        "psma_7ee9adc7b31f780e_4scans/2016-03-18/PET.nii.gz",
+        "psma_7ee9adc7b31f780e_4scans/2017-04-09/PET.nii.gz"
+      ],
+      "previous_diagnosis": [
+        "NEGATIVE",
+        "PROSTATE_CANCER"
+      ]
+    },
+    },
+  ],
+  
+  "val": [
+        {
+      "image": "fdg_ccb9c375b2_10-01-2005-NA-PET-CT Ganzkoerper  primaer mit KM-48947/PET.nii.gz",
+      "patientInfo": "61 years old female. Imaging device: Siemens Biograph mCT. Tracer: 18F-FDG.",
+      "diagnosis": "NEGATIVE",
+      "dose_tag": 100,
+      "previous_high_doses": [],
+      "previous_diagnosis": []
+    }
+    ],
+  "test": [
+    {
+      "image": "fdg_ccd8f5ff71_10-29-2006-NA-PET-CT Ganzkoerper  primaer mit KM-53232/PET.nii.gz",
+      "patientInfo": "67 years old female. Imaging device: Siemens Biograph mCT. Tracer: 18F-FDG.",
+      "diagnosis": "NEGATIVE",
+      "dose_tag": 100,
+      "previous_high_doses": [],
+      "previous_diagnosis": []
+    }]
+}

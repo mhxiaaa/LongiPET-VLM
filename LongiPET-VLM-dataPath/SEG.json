@@ -1,0 +1,32 @@
+{
+  "train": [
+    {
+      "image": "path/to/image1.nii.gz",
+      "seg": "path/to/seg1.nii.gz",
+      "dose_tag": 100,
+      "previous_high_doses": ["path/to/previous_image1.nii.gz"]
+    },
+    {
+      "image": "path/to/image2.nii.gz",
+      "seg": "path/to/seg2.nii.gz",
+      "dose_tag": 10,
+      "previous_high_doses": ["path/to/previous_image2.nii.gz"]
+    },
+    
+  ],
+  "val": [
+    {
+      "image": "path/to/image300.nii.gz",
+      "seg": "path/to/seg300.nii.gz",
+      "dose_tag": 20,
+      "previous_high_doses": ["path/to/previous_image300.nii.gz"]
+    }
+  ],
+  
+  "test": [{
+      "image": "path/to/image3000.nii.gz",
+      "seg": "path/to/seg3000.nii.gz",
+      "dose_tag": 100,
+      "previous_high_doses": ["path/to/previous_image3000.nii.gz"]
+    }]
+}

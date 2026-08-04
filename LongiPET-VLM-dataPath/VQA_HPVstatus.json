@@ -1,0 +1,30 @@
+{
+  "train": [
+    {
+      "image": "MDA-447/PET.nii.gz",
+      "patientInfo": "43 years old male. Tobacco use: Yes. Alcohol use: Yes. Performance status (Zubrod): good. Treatment: radiotherapy and chemotherapy. M-stage (metastasis): M0. Imaging device: GE Discovery. Tracer: 18F-FDG.",
+      "diagnosis": "positive",
+      "dose_tag": 100,
+      "previous_high_doses": [],
+      "previous_diagnosis": []
+    },
+    {
+      "image": "CHUM-014/PET.nii.gz",
+      "patientInfo": "59 years old male. Treatment: radiotherapy and chemotherapy. M-stage (metastasis): M0. Imaging device: GE Discovery STE. Tracer: 18F-FDG.",
+      "diagnosis": "positive",
+      "dose_tag": 100,
+      "previous_high_doses": [],
+      "previous_diagnosis": []
+    }
+  ],
+  "val": [],
+  "test": [{
+      "image": "CHUM-012/PET.nii.gz",
+      "patientInfo": "61 years old male. Treatment: radiotherapy and chemotherapy. M-stage (metastasis): M0. Imaging device: GE Discovery STE. Tracer: 18F-FDG.",
+      "diagnosis": "positive",
+      "dose_tag": 100,
+      "previous_high_doses": [],
+      "previous_diagnosis": []
+    }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+  "train": [
+    {
+      "image": "path/to/image1.nii.gz",
+      "report": "path/to/report1.txt",
+      "dose_tag": 100,
+      "previous_high_doses": [
+        "path/to/previous_high_dose_image1.nii.gz"
+      ],
+      "previous_reports": [
+        "path/to/previous_report1.txt"
+      ]
+    },
+    {
+      "image": "path/to/image2.nii.gz",
+      "report": "path/to/report2.txt",
+      "dose_tag": 100,
+      "previous_high_doses": [
+        "path/to/previous_high_dose_image2.nii.gz"
+      ],
+      "previous_reports": [
+        "path/to/previous_report2.txt"
+      ]
+    },
+    
+  ],
+  "val": [{
+      "image": "path/to/image3.nii.gz",
+      "report": "path/to/report3.txt",
+      "dose_tag": 100,
+      "previous_high_doses": [
+        "path/to/previous_high_dose_image3.nii.gz"
+      ],
+      "previous_reports": [
+        "path/to/previous_report3.txt"
+      ]
+    }],
+  "test": [{
+      "image": "path/to/image4.nii.gz",
+      "report": "path/to/report4.txt",
+      "dose_tag": 100,
+      "previous_high_doses": [
+        "path/to/previous_high_dose_image4.nii.gz"
+      ],
+      "previous_reports": [
+        "path/to/previous_report4.txt"
+      ]
+    }]
+}

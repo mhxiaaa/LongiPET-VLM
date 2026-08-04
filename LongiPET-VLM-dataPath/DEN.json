@@ -1,0 +1,37 @@
+{
+  "train": [
+    {
+      "low_dose": "path/to/low_dose_image1.nii.gz",
+      "high_dose": "path/to/high_dose_image1.nii.gz",
+      "dose_tag": 10, # the actual low-dose value
+      "previous_high_doses": ["path/to/previous_high_dose_image1.nii.gz"]
+    },
+    {
+      "low_dose": "path/to/low_dose_image2.nii.gz",
+      "high_dose": "path/to/high_dose_image2.nii.gz",
+      "dose_tag": 20,
+      "previous_high_doses": [
+        "path/to/previous_high_dose_image2.nii.gz"
+      ]
+    }
+  ],
+  
+  "val": [
+    {
+      "low_dose": "path/to/low_dose_image1000.nii.gz",
+      "high_dose": "path/to/high_dose_image1000.nii.gz",
+      "dose_tag": 5,
+      "previous_high_doses": ["path/to/previous_high_dose_image1000.nii.gz"]
+    },
+  ],
+  
+  "test": [{
+      "low_dose": "path/to/low_dose_image10000.nii.gz",
+      "high_dose": "path/to/high_dose_image10000.nii.gz",
+      "dose_tag": 5,
+      "previous_high_doses": [
+        "path/to/previous_high_dose_image10000.nii.gz"
+      ]
+    }
+  ]
+}

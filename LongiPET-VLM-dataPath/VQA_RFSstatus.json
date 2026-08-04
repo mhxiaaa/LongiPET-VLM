@@ -1,0 +1,35 @@
+{
+  "train": [
+    {
+      "image": "CHUM-002/PET.nii.gz",
+      "patientInfo": "73 years old male. Treatment: radiotherapy and chemotherapy. M-stage (metastasis): M0. Imaging device: GE Discovery STE. Tracer: 18F-FDG.",
+      "diagnosis": "Relapsed.",
+      "relapse_free_survival": 439,
+      "dose_tag": 100,
+      "previous_high_doses": [],
+      "previous_diagnosis": []
+    },
+    {
+      "image": "CHUM-006/PET.nii.gz",
+      "patientInfo": "65 years old male. Treatment: radiotherapy and chemotherapy. M-stage (metastasis): M0. Imaging device: GE Discovery STE. Tracer: 18F-FDG.",
+      "diagnosis": "Not relapsed.",
+      "relapse_free_survival": 1186,
+      "dose_tag": 100,
+      "previous_high_doses": [],
+      "previous_diagnosis": []
+    },
+    
+  ],
+  "val": [
+
+  ],
+  "test": [{
+      "image": "CHUM-001/PET.nii.gz",
+      "patientInfo": "82 years old male. Treatment: radiotherapy and chemotherapy. M-stage (metastasis): M0. Imaging device: GE Discovery STE. Tracer: 18F-FDG.",
+      "diagnosis": "Not relapsed.",
+      "relapse_free_survival": 1704,
+      "dose_tag": 100,
+      "previous_high_doses": [],
+      "previous_diagnosis": []
+    }]
+}
